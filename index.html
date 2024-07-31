@@ -1,0 +1,1182 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mon Portofolio</title>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/Coding Brain wb.png"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/my-avatar.png"
+              alt="Stephane ABOKE"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Richard hanrick">ABOKE MAMBO <br> JEAN STEPHANE</h1>
+
+            <p class="title">Développeur Full-Stack</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Montrer mon contact</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="jeanstephaneabokemambo@gmail.com" class="contact-link"
+                  >jeanstephaneabokemambo@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Contact</p>
+
+                <a href="tel:+225 07 68 68 09 91" class="contact-link">+225 07 68 68 09 91</a>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Anniversaire</p>
+
+                <time datetime="2002-01-06">06 Janvier 2002</time>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Localisation</p>
+
+                <address>Bingerville, Cité OPES 1</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a href="https://www.facebook.com/share/6kMejrUGJ8w6kgtr/?mibextid=qi2Omg" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href=" https://wa.me/qr/XKVFZGQ67RTBC1 " class="social-link">
+                <ion-icon name="logo-whatsapp"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://www.instagram.com/i.am_mambo?igsh=MWJoYWZ2NWc2N3dqdg==" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Blog</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">A Propos de moi</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              Je suis un étudiant diplômé du BTS en IDA (Informatique Developpeur d'Application) et de la licence professionelle en Informatique. J'aime transformer des problèmes complexes en conceptions simples, belles et intuitives.
+            </p>
+
+            <p>
+              Mon travail consiste à créer votre site Web de manière à ce qu'il soit fonctionnel et convivial, mais en même temps attrayant. De plus, j'ajoute une touche personnelle à votre produit et veille à ce qu'il soit accrocheur et facile à utiliser. Mon objectif est de faire passer votre message et votre identité de la manière la plus créative possible. J'ai créé des conceptions de sites Web pour de nombreuses marques célèbres.
+            </p>
+          </section>
+
+          <!--
+          - service
+        -->
+
+          <section class="service">
+            <h3 class="h3 service-title">Qu'est-ce que je fais</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-design.svg
+                "
+                    alt="design icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">création de sites web</h4>
+
+                  <p class="service-item-text">
+                    Le design le plus moderne et de haute qualité réalisé selon vos désirs.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-dev.svg"
+                    alt="Web development icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Développement web</h4>
+
+                  <p class="service-item-text">
+                    Développement de sites de haute qualité au niveau professionnel selon vos envies.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-app.svg"
+                    alt="mobile app icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Développement d'application Windows</h4>
+
+                  <p class="service-item-text">
+                    Développement professionnel d'applications pour le systeme Windows avec ou sans base de donnée.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-photo.svg"
+                    alt="camera icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Photographie</h4>
+
+                  <p class="service-item-text">
+                    Je fais des photographie de qualité et très belles.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!--
+          - testimonials
+        -->
+
+          <section class="testimonials">
+            <h3 class="h3 testimonials-title">Témoignages</h3>
+
+            <ul class="testimonials-list has-scrollbar">
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-1.png"
+                      alt="Babo Josué"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Babo Josué
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Nous avons travaillé ensemble afin de participer à un Hackatton.Il a été très impliqué, créatif  et minitieux sur les détails de notre travail. J'ai été impressionné par sa prestation.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-2.png"
+                      alt="Lakpé Grace"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Lakpé Grace
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Je travaille dans un comité dans mon église. Notre travail consiste à recenser les membres, les ouvriers, les enfants et nouvelles personnes de l'église. Il nous a proposé une app windows et web pour automatiser notre travail. Le design était vraiment bon et les apps repondent à nos attentes.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-3.png"
+                      alt="Astou Berthe"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Astou Berthe
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Mambo a été sollicité pour créer un site web pour notre église. Nous étions très satisfaits du travail réalisé. Il a beaucoup d'expérience et se soucie vraiment des besoins du client. Il a suivi à la lettre la maquette du site que je lui avait remis et a ajouté des animations pour la convivialité du site.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-4.png"
+                      alt="Gnagne Edva"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Gnagne Edva
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Nous avons travaillés sur des projets ensemble. Je peux dire qu'il aime vraiment ce qu;il fait et je le vois dans son travail.
+
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!--
+          - testimonials modal
+        -->
+
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img
+                    src="./assets/images/avatar-1.png"
+                    alt="Babo Josué"
+                    width="80"
+                    data-modal-img
+                  />
+                </figure>
+
+                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+              </div>
+
+              <div class="modal-content">
+                <h4 class="h3 modal-title" data-modal-title>Babo Josué</h4>
+
+                <time datetime="2021-06-14">14 Octobre 2023</time>
+
+                <div data-modal-text>
+                  <p>
+                    Nous avons travaillé ensemble afin de participer à un Hackatton.Il a été très impliqué, créatif  et minitieux sur les détails de notre travail. J'ai été impressionné par sa prestation.
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <!--
+          - clients
+        -->
+
+          <section class="clients">
+            <h3 class="h3 clients-title">Clients</h3>
+
+            <ul class="clients-list has-scrollbar">
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/Coding Brain lb.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/Coding Brain lb.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/Coding Brain lb.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/Coding Brain lb.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/Coding Brain lb.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/Coding Brain lb.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #RESUME
+      -->
+
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Cv</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  AGITEL-FORMATION
+                </h4>
+
+                <span>2023 - 2024</span>
+
+                <p class="timeline-text">
+                  Licence professionelle en Informatique
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  AGITEL-FORMATION
+                </h4>
+
+                <span>2021 - 2023</span>
+
+                <p class="timeline-text">
+                  BTS Informatique Développeur D'application
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Lycée Garcon de Bingerville</h4>
+
+                <span>2020 - 2021</span>
+
+                <p class="timeline-text">
+                  Baccalauréat serie A1
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Développeurs Full-Stack</h4>
+
+                <span>2024 — Présent</span>
+
+                <p class="timeline-text">
+                  Je travaille sur des projets personnels pour améliorer mes compétences et ma créativité: 
+                  Vous pouvez les voir sur mon compte GitHub ci dessous: <br>
+                  <a style="color: green;" href="https://github.com/BlackMamba-07">https://github.com/BlackMamba-07</a>
+                </p>
+              </li>
+
+          <section class="skill">
+            <h3 class="h3 skills-title">Mes compétences</h3>
+
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Développement de site Web</h5>
+                  <data value="80">80%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Création de site Web</h5>
+                  <data value="60">60%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 60%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Création et administration de base de donnée</h5>
+                  <data value="70">70%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">WordPress</h5>
+                  <data value="50">50%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 50%"></div>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #PORTFOLIO
+      -->
+
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>Tous</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Web design</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Applications</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Web development</button>
+              </li>
+            </ul>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Selectionner la catégorie
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>Tous</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web design</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Applications</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web development</button>
+                </li>
+              </ul>
+            </div>
+
+            <!-- <ul class="project-list"><p class="project-category">Bientot disponible ...</p></ul> -->
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-1.jpg"
+                      alt="finance"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                   <h3 class="project-title">Finance</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-2.png"
+                      alt="orizon"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Orizon</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-3.jpg"
+                      alt="fundo"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Fundo</h3>
+
+                  <p class="project-category">Web design</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="applications"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-4.png"
+                      alt="brawlhalla"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Gamer</h3>
+
+                  <p class="project-category">Applications</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-5.png"
+                      alt="dsm."
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">DSM.</h3>
+
+                  <p class="project-category">Web design</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-6.png"
+                      alt="metaspark"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">MetaSpark</h3>
+
+                  <p class="project-category">Web design</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-7.png"
+                      alt="summary"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Summary</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="applications"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-8.jpg"
+                      alt="task manager"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Task Manager</h3>
+
+                  <p class="project-category">Applications</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-9.png"
+                      alt="arrival"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Arrival</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+      
+        <section class="blog-posts">
+          <ul class="blog-posts-list">
+            <li class="blog-post-item">
+              <a href="#">
+                <figure class="blog-banner-box">
+                  <img
+                    src="./assets/images/blog-1.jpg"
+                    alt="Conférences de design en 2022"
+                    loading="lazy"
+                  />
+                </figure>
+      
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+      
+                    <span class="dot"></span>
+      
+                    <time datetime="2022-02-23">23 Février 2022</time>
+                  </div>
+      
+                  <h3 class="h3 blog-item-title">
+                    Conférences de design en 2022
+                  </h3>
+      
+                  <p class="blog-text">
+                    Ce blog a été créé pour les conférences de design en 2022.
+                  </p>
+                </div>
+              </a>
+            </li>
+      
+            <li class="blog-post-item">
+              <a href="#">
+                <figure class="blog-banner-box">
+                  <img
+                    src="./assets/images/blog-2.jpg"
+                    alt="Meilleures polices pour chaque designer"
+                    loading="lazy"
+                  />
+                </figure>
+      
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+      
+                    <span class="dot"></span>
+      
+                    <time datetime="2022-02-23">23 Février 2022</time>
+                  </div>
+      
+                  <h3 class="h3 blog-item-title">
+                    Meilleures polices pour chaque designer
+                  </h3>
+      
+                  <p class="blog-text">
+                    Blog créé pour les développeurs et les designers afin de leur fournir les meilleures polices pour leurs projets.
+                  </p>
+                </div>
+              </a>
+            </li>
+      
+            <li class="blog-post-item">
+              <a href="#">
+                <figure class="blog-banner-box">
+                  <img
+                    src="./assets/images/blog-3.jpg"
+                    alt="Digest de design #80"
+                    loading="lazy"
+                  />
+                </figure>
+      
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+      
+                    <span class="dot"></span>
+      
+                    <time datetime="2022-02-23">23 Février 2022</time>
+                  </div>
+      
+                  <h3 class="h3 blog-item-title">Digest de design #80</h3>
+      
+                  <p class="blog-text">
+                    Ce blog est destiné aux designers pour améliorer leur créativité.
+                  </p>
+                </div>
+              </a>
+            </li>
+      
+            <li class="blog-post-item">
+              <a href="#">
+                <figure class="blog-banner-box">
+                  <img
+                    src="./assets/images/blog-4.jpg"
+                    alt="Interactions UI de la semaine"
+                    loading="lazy"
+                  />
+                </figure>
+      
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+      
+                    <span class="dot"></span>
+      
+                    <time datetime="2022-02-23">23 Février 2022</time>
+                  </div>
+      
+                  <h3 class="h3 blog-item-title">
+                    Interactions UI de la semaine
+                  </h3>
+      
+                  <p class="blog-text">
+                    Ce blog porte sur les meilleures interactions UI développées durant la semaine.
+                  </p>
+                </div>
+              </a>
+            </li>
+      
+            <li class="blog-post-item">
+              <a href="#">
+                <figure class="blog-banner-box">
+                  <img
+                    src="./assets/images/blog-5.jpg"
+                    alt="L'art oublié de l'espacement"
+                    loading="lazy"
+                  />
+                </figure>
+      
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+      
+                    <span class="dot"></span>
+      
+                    <time datetime="2022-02-23">23 Février 2022</time>
+                  </div>
+      
+                  <h3 class="h3 blog-item-title">
+                    L'art oublié de l'espacement
+                  </h3>
+      
+                  <p class="blog-text">
+                    Ce blog s'adresse aux créateurs pour souligner l'importance de l'espacement dans le métier du design.
+                  </p>
+                </div>
+              </a>
+            </li>
+      
+            <li class="blog-post-item">
+              <a href="#">
+                <figure class="blog-banner-box">
+                  <img
+                    src="./assets/images/blog-6.jpg"
+                    alt="Digest de design #79"
+                    loading="lazy"
+                  />
+                </figure>
+      
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+      
+                    <span class="dot"></span>
+      
+                    <time datetime="2022-02-23">23 Février 2022</time>
+                  </div>
+      
+                  <h3 class="h3 blog-item-title">Digest de design #79</h3>
+      
+                  <p class="blog-text">
+                    Ce blog est destiné aux designers pour améliorer leur créativité.
+                  </p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+      
+
+        <!--
+        - #CONTACT
+      -->
+
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30879.213020989424!2d78.71872127110198!3d14.661523718924572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb37bf2affbaf07%3A0x877fa1b02d15609d!2sKhajipet%20Bus%20Stop!5e0!3m2!1sen!2sin!4v1662274495151!5m2!1sen!2sin"
+                width="400"
+                height="300"
+                loading="lazy"
+              ></iframe>
+            </figure>
+          </section>
+
+          <section class="contact-form">
+            <h3 class="h3 form-title">Formulaire de contact</h3>
+
+            <form
+              action="assets/php/data.php"
+              class="form"
+              data-form
+              method="post"
+            >
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Tous ton nom"
+                  required
+                  data-form-input
+                />
+
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email"
+                  required
+                  data-form-input
+                />
+              </div>
+
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Ton Message"
+                required
+                data-form-input
+              ></textarea>
+
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Envoyer Message</span>
+              </button>
+            </form>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
